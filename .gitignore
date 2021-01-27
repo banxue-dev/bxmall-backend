@@ -1,0 +1,15 @@
+
+.project
+linjiashop-core/.classpath
+linjiashop-mobile-api/.classpath
+linjiashop-generator/.classpath
+linjiashop-core/.settings/org.eclipse.jdt.core.prefs
+linjiashop-core/.settings/org.eclipse.m2e.core.prefs
+linjiashop-core/.settings/org.eclipse.core.resources.prefs
+linjiashop-admin-api/.classpath
+linjiashop-generator/.settings/org.eclipse.m2e.core.prefs
+linjiashop-generator/.settings/org.eclipse.jdt.core.prefs
+linjiashop-generator/.settings/org.eclipse.core.resources.prefs
+linjiashop-mobile-api/.settings/org.eclipse.m2e.core.prefs
+linjiashop-mobile-api/.settings/org.eclipse.jdt.core.prefs
+linjiashop-mobile-api/.settings/org.eclipse.core.resources.prefs
