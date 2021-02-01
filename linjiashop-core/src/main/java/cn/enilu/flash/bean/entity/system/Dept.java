@@ -36,4 +36,6 @@ public class Dept extends BaseEntity {
     private String tips;
     @Column
     private Integer version;
+    @Column
+    private String orgCode;
 }

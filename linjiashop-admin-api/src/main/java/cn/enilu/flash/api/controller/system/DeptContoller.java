@@ -10,6 +10,7 @@ import cn.enilu.flash.bean.vo.node.DeptNode;
 import cn.enilu.flash.service.system.DeptService;
 import cn.enilu.flash.service.system.LogObjectHolder;
 import cn.enilu.flash.utils.BeanUtil;
+import cn.enilu.flash.utils.OrgCodeGreater;
 import cn.enilu.flash.web.controller.BaseController;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.slf4j.Logger;
@@ -57,6 +58,7 @@ public class DeptContoller extends BaseController {
             deptService.deptSetPids(old);
             deptService.update(old);
         }else {
+        	dept.setOrgCode(OrgCodeGreater.createCode());
             deptService.deptSetPids(dept);
             deptService.insert(dept);
         }

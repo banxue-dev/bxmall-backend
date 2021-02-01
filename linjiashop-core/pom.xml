@@ -39,6 +39,11 @@
             <scope>compile</scope>
         </dependency>
 
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.58</version>
+		</dependency>
         <!-- dao start-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

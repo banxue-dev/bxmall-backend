@@ -29,5 +29,7 @@ public class Category extends BaseEntity {
     private String icon;
     @Transient
     private List<Banner> bannerList;
+    @Column
+    private String orgCode;
 
 }

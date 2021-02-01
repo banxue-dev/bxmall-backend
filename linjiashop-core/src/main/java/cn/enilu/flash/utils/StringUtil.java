@@ -76,6 +76,21 @@ public class StringUtil {
         return false;
     }
     /**
+	 * 验证是否为空，只要这些有一个为空，就会返回true
+	 * @param objs
+	 * @return
+	 * 2019年9月25日
+	 * 作者：fengchase
+	 */
+	public static boolean isNullStrings(String ... objs) {
+		for(String obj:objs) {
+			if(isEmpty(obj)) {
+				return true;
+			}
+		}
+		return false;
+	}
+    /**
      * 是否为非空字符
      */
     public static boolean isNotEmpty(String str) {

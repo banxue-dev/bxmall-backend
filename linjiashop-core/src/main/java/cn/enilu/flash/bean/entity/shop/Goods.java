@@ -55,5 +55,7 @@ public class Goods extends BaseEntity {
     private Boolean isHot = false;
     @Column(name="like_num",columnDefinition = "INT COMMENT '收藏数'")
     private Integer likeNum;
+    @Column
+    private String orgCode;
 
 }
