@@ -79,6 +79,7 @@ public class AccountController extends BaseController {
             Map<String, String> result = new HashMap<>(1);
             logger.info("token:{}",token);
             result.put("token", token);
+            result.put("orgCode", user.getOrgCode());
             LogManager.me().executeLog(LogTaskFactory.loginLog(user.getId(), HttpUtil.getIp()));
             return Rets.success(result);
         } catch (Exception e) {
